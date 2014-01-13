@@ -19,6 +19,8 @@
 		8324F9A91881065F000BD919 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8324F9911881065F000BD919 /* UIKit.framework */; };
 		8324F9B11881065F000BD919 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8324F9AF1881065F000BD919 /* InfoPlist.strings */; };
 		8324F9B31881065F000BD919 /* temperatureConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8324F9B21881065F000BD919 /* temperatureConverterTests.m */; };
+		8324F9C4188106EA000BD919 /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8324F9C2188106EA000BD919 /* TemperatureViewController.m */; };
+		8324F9C5188106EA000BD919 /* TemperatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8324F9C3188106EA000BD919 /* TemperatureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		8324F9AE1881065F000BD919 /* temperatureConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "temperatureConverterTests-Info.plist"; sourceTree = "<group>"; };
 		8324F9B01881065F000BD919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8324F9B21881065F000BD919 /* temperatureConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temperatureConverterTests.m; sourceTree = "<group>"; };
+		8324F9C1188106EA000BD919 /* TemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		8324F9C2188106EA000BD919 /* TemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		8324F9C3188106EA000BD919 /* TemperatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				8324F99D1881065F000BD919 /* AppDelegate.m */,
 				8324F99F1881065F000BD919 /* Images.xcassets */,
 				8324F9941881065F000BD919 /* Supporting Files */,
+				8324F9C1188106EA000BD919 /* TemperatureViewController.h */,
+				8324F9C2188106EA000BD919 /* TemperatureViewController.m */,
+				8324F9C3188106EA000BD919 /* TemperatureViewController.xib */,
 			);
 			path = temperatureConverter;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8324F9981881065F000BD919 /* InfoPlist.strings in Resources */,
+				8324F9C5188106EA000BD919 /* TemperatureViewController.xib in Resources */,
 				8324F9A01881065F000BD919 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8324F9C4188106EA000BD919 /* TemperatureViewController.m in Sources */,
 				8324F99E1881065F000BD919 /* AppDelegate.m in Sources */,
 				8324F99A1881065F000BD919 /* main.m in Sources */,
 			);
@@ -362,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "temperatureConverter/temperatureConverter-Prefix.pch";
 				INFOPLIST_FILE = "temperatureConverter/temperatureConverter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "temperatureConverter/temperatureConverter-Prefix.pch";
 				INFOPLIST_FILE = "temperatureConverter/temperatureConverter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,6 +453,7 @@
 				8324F9B81881065F000BD919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8324F9B91881065F000BD919 /* Build configuration list for PBXNativeTarget "temperatureConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +462,7 @@
 				8324F9BB1881065F000BD919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
